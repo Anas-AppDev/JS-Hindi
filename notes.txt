@@ -1,0 +1,7 @@
+var is not used because issue with block scope & functional scope
+
+use strict - indicates newer version of js to be followed
+
+prettier - code formatter
+
+null is a object
