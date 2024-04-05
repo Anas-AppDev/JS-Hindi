@@ -1,14 +1,17 @@
 let a = "87"
 let b = "87abc"
-
+let k = null
 let c = true
+let p = undefined
 
 console.log("Conversion to Number")
 console.table(
     [
         Number(a),
         Number(b),
+        Number(k),
         Number(c),
+        Number(p),
     ]
 )
 
@@ -40,3 +43,19 @@ console.table(
         Boolean(h),
     ]
 )
+
+
+//special cases
+
+console.log(+true)
+console.log(+"")
+
+console.log("1" + 2 + 3)
+console.log(1 + 2 + "3")
+
+let n1, n2, n3;
+n1 = n2 = n3 = 5;
+
+console.log(n1)
+console.log(n2)
+console.log(n3)

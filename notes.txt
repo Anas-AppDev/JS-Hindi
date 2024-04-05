@@ -5,3 +5,32 @@ use strict - indicates newer version of js to be followed
 prettier - code formatter
 
 null is a object
+
+2**3 - 2^3
+
+=== - "triple equal" strictly checks
+
+
+datatypes 
+    -primitive
+        -number
+        -bigint
+        -string
+        -boolean
+        -null
+        -undefined
+        -symbol
+    -non primitive or reference
+        -array
+        -object (map)
+        -function
+
+
+primitive - stored in stack
+non primitive - stored in heap
+
+
+string intercolation
+priting string with variable i.e. "github ${val}"
+
+math library - already imported in js by default
